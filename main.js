@@ -30,6 +30,3 @@ function youtube_html(url, width, height, autoplay, fullscreen) {
 
   return url.replace(reg, template);
 }
-
-var html = youtube_html("https://youtube.com/watch?v=B6sJ-AOfYYY", 425, 350, 1);
-document.write(html);
